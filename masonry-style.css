@@ -1,0 +1,9 @@
+.bg {
+    background-image: url(./images/msn-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center !important;
+    overflow: hidden;
+    background-color: hsl(205, 36%, 37%);
+    background-blend-mode: multiply;
+    
+}

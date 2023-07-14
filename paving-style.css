@@ -1,0 +1,59 @@
+html{
+  overflow-x: hidden;
+}
+.bg {
+  background-image: url(./images/pav-bg.jpg) !important;
+  background-repeat: no-repeat;
+  background-position: top center !important;
+  overflow: hidden;
+  background-color: hsl(205, 36%, 37%);
+  background-blend-mode: multiply;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-container .image {
+  flex: 1 1 40rem;
+}
+
+.box-container .content {
+  flex: 1 1 40rem;
+}
+
+.box-container .content p {
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.box-container .image img {
+  box-shadow: 8px 8px var(--yellow);
+  height: 450px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .intro{
+    overflow-x: hidden;
+  }
+   .intro{
+    text-align: center;
+   }
+
+   .bg .desc{
+    line-height: 3.5rem;
+   }
+
+   .box-container .image img{
+    height: 350px;
+   }
+}
+
+@media (max-width: 510px) {
+  .box-container .image img{
+    margin-right: 5rem;
+  }
+}
+

@@ -1,0 +1,21 @@
+.bg {
+    background-image: url(./images/con-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center !important;
+    overflow: hidden;
+    background-color: hsl(205, 36%, 37%);
+    background-blend-mode: multiply;
+  }
+
+  
+
+@media (max-width: 768px) {
+    .intro .box-container .image img{
+        margin-left: 0 !important;
+      }
+
+      .box-container .image .img-2 img{
+        padding-top: 4rem !important;
+      }
+}
+  

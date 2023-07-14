@@ -1,0 +1,65 @@
+.bg{
+    background-image: url(./images/g-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    object-fit: cover;
+    opacity: .7 black;
+    /* line-height: 5rem; */
+}
+
+.bg h1{
+    color: white;
+    margin-top: 30rem;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.bg .desc{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 3rem;
+}
+
+.bg .breadcrumb{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 5rem;
+}
+
+.call-to-action{
+    background: var(--yellow);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.call-to-action p{
+    text-align: center;
+    margin-top: .8rem;
+    color: #fff;
+    font-weight:  400;
+    font-size: 1.8rem;
+}
+
+.call-to-action p span:hover{
+color: var(--orange);
+}
+
+@media (max-width: 768px) {
+    .bg h1{
+        margin-top: 15rem;
+        font-size: 3.5rem;
+    }
+    .bg .desc{
+        font-size: 1.3rem;
+    }
+}

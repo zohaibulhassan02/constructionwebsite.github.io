@@ -1,0 +1,47 @@
+.bg {
+    background-image: url(./images/gallery-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center !important;
+    overflow: hidden;
+    background-color: hsl(205, 36%, 37%);
+    background-blend-mode: multiply;
+}
+
+.main-heading h1{
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(63, 60, 60);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8rem;
+    padding-bottom: 4rem;
+}
+
+.gallery-section{
+    background-image: url('./images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgb(94, 87, 87);
+    background-blend-mode: multiply;
+}
+
+.gallery-section .box-container{
+    display: flex;
+    flex-direction: wrap;
+    gap: 10px;  
+}
+
+.gallery-section .box-container .img-box{
+    flex: 1 1 30rem;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.gallery-section .box-container .img-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

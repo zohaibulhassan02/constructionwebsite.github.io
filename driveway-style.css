@@ -1,0 +1,8 @@
+.bg {
+    background-image: url(./images/drv-bg\ \(2\).jpg) !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    overflow: hidden;
+    background-color: hsl(205, 36%, 37%);
+    background-blend-mode: multiply;
+}
